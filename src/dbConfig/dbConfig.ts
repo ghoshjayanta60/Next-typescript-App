@@ -17,6 +17,8 @@ export async function connect() {
         user: 'jayantaghosh928',
         pass: 'U0YTnQ8KwYN56X7E'
     })
+  //  .then(() => console.log('Mongodb -- True'))
+  //  .catch(err => console.error('Mongodb -- False', err));
         const connection = mongoose.connection;
 
         connection.on('connected', () => {
