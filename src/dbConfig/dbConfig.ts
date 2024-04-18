@@ -11,7 +11,7 @@ export async function connect() {
         useNewUrlParser: true,
         reconnectInterval: 1000,
         connectTimeoutMS: 30000,
-      //  reconnectTries: Number.MAX_VALUE,
+      //  reconnectTries: Number.MAX_VALUEe,
 
         // User Name & Password
         user: 'jayantaghosh928',
